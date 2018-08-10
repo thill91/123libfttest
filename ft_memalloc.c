@@ -6,7 +6,7 @@
 /*   By: thill <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/30 18:39:07 by thill             #+#    #+#             */
-/*   Updated: 2018/08/03 19:59:21 by thill            ###   ########.fr       */
+/*   Updated: 2018/08/09 21:07:04 by thill            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	*ft_memalloc(size_t size)
 {
-	void *mem;
+	char	*mem;
 
 	mem = malloc(size);
 	if (mem == NULL)
